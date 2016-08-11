@@ -8,7 +8,7 @@ authors:
  - name: Daniel Roberto Cassar
    orcid: 0000-0001-6472-2780
    affiliation: Vitreous Materials Lab., Federal University of Sao Carlos, Sao Carlos-SP, Brazil
-date: 10 August 2016
+date: 11 August 2016
 bibliography: references.bib
 ---
 
