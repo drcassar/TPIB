@@ -19,10 +19,10 @@ This is an algorithm that takes a transformation peak data as an input, computes
 During the crystallization peak, two different phases are present at the same time: the liquid and the crystal. These phases have different thermal properties (such as heat capacity, for example) and because of this a linear baseline is often not the optimal solution. This algorithm takes into account the amount of transformed phase for each peak datapoint to compute a physically reasonable baseline.
 
 ![Example of a raw calorimetric data obtained via Differential Scanning Calorimetry (DSC)](raw_data.png)
-Figure 1: Example of a raw calorimetric data obtained via Differential Scanning Calorimetry (DSC).
+Figure 1: Example of a raw calorimetric data obtained via Differential Scanning Calorimetry (DSC). In this case the X data is the absolute temperature and the Y data is the DSC signal.
 
 ![Crystallization peak from Figure 1 after runnin the TPIB algorithm](peak.png)
-Figure 2: Crystallization peak from Figure 1 after runnin the TPIB algorithm.
+Figure 2: Crystallization peak from Figure 1 after runnin the TPIB algorithm. The peak was normalized to have area equal to one.
 
 There are comercial software available that compute what is called "a sigmoidal baseline". However, two problems arise due to the closed nature of these software: different software can yield diffent results; and results done in the same software for different samples may yield unreliable results due to some assumption made in the code that is not clear to the end user.
 
