@@ -24,9 +24,7 @@ Figure 1: Example of a raw calorimetric data obtained via Differential Scanning 
 ![Crystallization peak from Figure 1 after running the TPIB algorithm](peak.png)
 Figure 2: Crystallization peak from Figure 1 after running the TPIB algorithm. The peak was normalized to have area equal to one.
 
-There are commercial software available that compute what is called "a sigmoidal baseline". However, two problems arise due to the closed nature of these software: different software can yield different results; and results done in the same software for different samples may yield unreliable results due to some assumption made in the code that is not clear to the end user.
-
-These two problems can be solved with this open-source code.
+There are commercial software available that compute what is called "a sigmoidal baseline". However, two problems arise due to the closed nature of these software: different software can yield different results; and results done in the same software for different samples may yield unreliable results due to some assumption made in the code that is not clear to the end user. These two problems can be solved with this open-source code.
 
 # References
 
